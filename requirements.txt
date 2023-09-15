@@ -1,0 +1,3 @@
+# ingesting 
+langchain
+chromadb==0.4.7
