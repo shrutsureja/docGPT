@@ -102,7 +102,7 @@ if __name__ == "__main__":
     while True:
         query = input("\nEnter a question: ")
         query = "Question: " + query
-        if query == "exit":
+        if query == "Question: exit":
             break
         if query.strip() == "":
             continue

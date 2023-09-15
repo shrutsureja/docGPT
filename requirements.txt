@@ -6,3 +6,6 @@ pymupdf
 
 #download model dependences
 huggingface_hub
+
+#chat model
+llama-cpp-python
