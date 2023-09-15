@@ -1,3 +1,5 @@
-# ingesting 
+# ingestion dependences
 langchain
-chromadb==0.4.7
+chromadb
+sentence_transformers
+pymupdf
