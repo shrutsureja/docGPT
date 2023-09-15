@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# Copied from https://github.com/imartinez/privateGPT/blob/main/ingest.py
 import os
 import glob
 from typing import List
