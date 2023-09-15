@@ -20,6 +20,8 @@ template = """Question: {question}
 Answer: Let's work this out in a step by step way to be sure we have the right answer."""
 
 prompt = PromptTemplate(template=template, input_variables=["question"])
+
+
 # Callbacks support token-wise streaming
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 n_gpu_layers = 40  # Change this value based on your model and your GPU VRAM pool.
@@ -101,8 +103,9 @@ if __name__ == "__main__":
 
     while True:
         query = input("\nEnter a question: ")
-        query = "Question: " + query
-        if query == "Question: exit":
+        # query = "Question: " + query
+        # if query == "Question: exit":
+        if query == "exit":
             break
         if query.strip() == "":
             continue
