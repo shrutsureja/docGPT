@@ -5,3 +5,4 @@ sentence_transformers
 pymupdf
 
 #download model dependences
+huggingface_hub
